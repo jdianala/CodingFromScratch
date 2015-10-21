@@ -1,0 +1,182 @@
+﻿/*CSS review*/
+
+/*CSS review*/
+
+/*Element Selector*/
+/*Element Selector*/
+
+#one{
+background-color: blue;
+    width:500px;
+    height:500px;
+    border: 5px solid darkblue;
+    margin: 15px;
+    padding: 15px;
+}
+#two{
+background-color: red;
+    width:250px;
+    height:250px;
+      border: 5px solid darkred;
+    margin: 15px;
+    padding: 15px;
+}
+#three{
+background-color: yellow;
+    width:125px;
+    height:125px;
+      border: 5px solid gold;
+    margin: 15px;
+    padding: 15px;
+}
+
+#four{
+background-color: green;
+    width:62.5px;
+    height:62.5px;
+      border: 5px groove darkgreen;
+    margin: 25px;
+    padding: 15px;
+}
+
+#content {
+    background-color: lightblue;
+    padding: 10px;
+    width: 100px;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#padding {
+    background-color: yellow;
+    width: 260px;
+    height: 110px;
+    margin: auto;
+}
+
+#border {
+    background-color: green;
+    margin: auto;
+    width: 300px;
+    height:150px;
+
+}
+
+#margin {
+    background-color: grey;
+    padding: 50px 10px 25px 10px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border: 2px dashed red;
+}
+#my {
+    margin: 10px 10px 10px 10px;
+    border: 12px solid green;
+    padding: 40px;
+    
+}
+
+h1{
+    font-size:3em;
+    color:orange;
+}
+
+/*ID Selectors - targets one element*/
+
+#heading{
+    font-size:10em;
+    color:darkgoldenrod;
+}
+
+/*Class Selector - Allows us to target multiple elements to apply a style*/
+
+.styleMe{
+    text-align:center;
+    text-decoration:overline;
+    font-size:2in;
+    color: seagreen;
+}
+
+.fontChange{
+    font-family:'Early Bird';
+}
+
+/*Selecting a specific element by class*/
+
+h1.styleMe{
+/*Style Here*/
+}
+
+/*Group Selectors*/
+
+table {
+    width:100%;
+    border: solid 12px pink;
+}
+
+ td{
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:FangSong;
+}
+
+/*Background Properties
+
+    background-color: Applies a background color to an element.
+    background-image: Apply an image background to a specified element.
+    background-position: Set the position of the image in your background.
+    background-repeat: Specifies how the image will be repeated, or not repeated at all.
+    background: Allow us to use all of the background properties in one single property.
+
+*/
+
+
+#box{
+    width:500px;
+    height:500px;
+    /*background-color: green;
+    background-image: url("http://img2.wikia.nocookie.net/__cb20141030115543/r2d/images/8/80/Luigi_death_stare_deal_with_it.png");
+    background-repeat:no-repeat;
+    background-position: center bottom;*/
+    background: url("http://img2.wikia.nocookie.net/__cb20141030115543/r2d/images/8/80/Luigi_death_stare_deal_with_it.png") no-repeat center black ;
+}
+
+/*Text and Font
+
+    color
+    text-align
+    text-transform
+    text-decoration
+    text-indent
+
+
+*/
+
+#special{
+    color: deepskyblue;
+    text-align:center;
+    text-transform:lowercase;
+    text-decoration: overline;
+    text-indent:50px;
+    text-shadow:1px 1px 1px blue; 
+    font-family: 'Kaushan Script', cursive;
+    font-style:italic;
+    font-size:3em;
+}
+
+#body { 
+    background-image: url('http://www.genesispark.com/wp-content/uploads/2011/11/Frilled-Lizard.png');
+    background-repeat: no-repeat;
+    
+    
+    
+    /*MAGICAL PROPERTY*/
+    background-attachment: fixed;
+}

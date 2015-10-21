@@ -1,0 +1,42 @@
+﻿h1{
+    color: green;
+}
+
+p{
+    color: red;
+}
+
+#para1 {
+    color: blue;
+}
+
+body {
+
+    background: url(https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/295140_10151410771739152_612815331_n.jpg?oh=d0398b254635686c4f839c2226b7fc62&oe=565B18A0)
+    no-repeat center;
+
+
+}
+
+a:link{
+    color: blue;
+
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: yellow;
+    background-color: blue;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+a:active{
+    color: green;
+    background-color: blue;
+    font-size: x-large;
+    font-weight: 900;
+}

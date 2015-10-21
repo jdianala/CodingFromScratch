@@ -1,0 +1,32 @@
+﻿/*Float - Will allow text to wrap an image.*/
+
+img {
+    float: left;
+}
+
+.div1 {
+    float:left;
+    width:130px;
+    height:50px;
+    margin:10px;
+    border:10px solid red;
+}
+
+.div2 {
+    border:4px solid yellow;
+    height:100px;
+}
+
+.div3 {
+     float:left;
+    width:130px;
+    height:50px;
+    margin:10px;
+    border:10px solid green;
+}
+/*The clear property is used to control the behavior of floating elements.*/
+.div4 {
+    border:4px solid yellow;
+      height:100px;
+      clear:left;
+}

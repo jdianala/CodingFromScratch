@@ -1,0 +1,71 @@
+﻿/*The Display Property vs Visibility Property
+
+    Block Level Elements - ELements that take up a new line and takes up the full width avaiable.
+
+    Examples of Block:
+    1. <div>
+    2. <p>
+    3.<h1> - <h6>
+    
+
+    Inline Level Elements - Only takes up as much space as necessary.
+    Examples of Inline:
+    1. <span>
+    2. <a>
+    3. <img>
+
+    display:none - We are hiding the element from view, and it's not taking up any space in the document.
+
+    visibility:hidden - hide the element, but still take up that space.
+*/
+
+#one {
+    display: inline;
+    display: none;
+}
+
+#two {
+    display: inline;
+    visibility: hidden;
+}
+
+#three {
+}
+
+/*Positioning
+
+    Static - Default Position
+    Fixed
+    Relative - Allows you to use top, bottom, left, and right properties to move an element relative to its current position.
+    Absolute - 
+
+
+
+*/
+
+#box1 {
+    height: 300px;
+    width: 300px;
+    background: red;
+    position: relative;
+    top: 50px;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    position: absolute;
+    top: 11px;
+    right: 107px;
+}
+
+
+#box3 {
+    height: 100px;
+    width: 100px;
+    background: green;
+    position: fixed;
+    top: 50px;
+    right: 55px;
+}
